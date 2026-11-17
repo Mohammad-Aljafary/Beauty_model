@@ -1,0 +1,49 @@
+{
+  "raw_rows": 1472,
+  "cleaned_rows": 1266,
+  "labeled_products": 890,
+  "unknown_all_zero_products": 376,
+  "ingredient_features": 1291,
+  "skin_onehot_features": 5,
+  "total_features": 1296,
+  "split_products": {
+    "train": 623,
+    "validation": 133,
+    "test": 134
+  },
+  "split_pairs": {
+    "train": 3115,
+    "validation": 665,
+    "test": 670
+  },
+  "score_summary": {
+    "train": {
+      "min": 45.45454406738281,
+      "mean": 72.03301239013672,
+      "max": 88.94684600830078,
+      "std": 6.302108287811279
+    },
+    "validation": {
+      "min": 50.0,
+      "mean": 74.69489288330078,
+      "max": 92.91643524169922,
+      "std": 7.223519325256348
+    },
+    "test": {
+      "min": 45.83333206176758,
+      "mean": 75.19893646240234,
+      "max": 90.73414611816406,
+      "std": 6.4136528968811035
+    }
+  },
+  "empty_ingredient_product_rows": {
+    "train": 9,
+    "validation": 3,
+    "test": 0
+  },
+  "unseen_ingredient_fraction": {
+    "train": 0.13404,
+    "validation": 0.19021,
+    "test": 0.18851
+  }
+}
